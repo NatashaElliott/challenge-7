@@ -12,7 +12,8 @@ Traffic data - https://vicdata.vicroads.vic.gov.au/metadata/Traffic_Count_Locati
 
 **Analysis of Ambulance Victoria response times for 2018 & 2019**
 
-The following report is an analysis of Ambulance Victoria's performance over the years 2018 and 2019. We aimed to investigate whether Ambulance Victoria is meeting their self-stated goals and if they aren't, what factors may be contributing to this. We have identified 2 major factors which we have investigated, which are traffic density and local population. Ambulance Victoria data is divided up into both Local Government Area (LGA) and Urban Centres and Localities (UCL). We have chosen to focus on UCLs because it allowed us to line up the Ambulance data from Ambulance Victoria, census data from the Australian Bureau of Statistics, and traffic data from VicRoads.
+The following report is an analysis of Ambulance Victoria's performance over the years 2018 and 2019. We aimed to investigate whether Ambulance Victoria is meeting their self-stated goals and if they aren't, what factors may be contributing to this. We have identified 2 major factors which we have investigated, which are traffic density and local population. The data from Ambulance Victoria includes both Code 1 incidents, which are defined as “urgent, requiring a lights and sirens response” and Code 2 incidents, which are “not time critical and do not require a lights and sirens response”. The data is divided up into both Local Government Area (LGA) and Urban Centres and Localities (UCL). We have chosen to focus on UCLs because it allowed us to line up the Ambulance data from Ambulance Victoria, census data from the Australian Bureau of Statistics, and traffic data from VicRoads. 
+
 We have raised the following questions regarding these datasets:
 
 What is the comparison between Code 1 and Code 2 incidents in terms of average response time and number of incidents?
