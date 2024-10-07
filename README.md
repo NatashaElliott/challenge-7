@@ -16,17 +16,23 @@ The following report is an analysis of Ambulance Victoria's performance over the
 We have raised the following questions regarding these datasets:
 
 What is the comparison between Code 1 and Code 2 incidents in terms of average response time and number of incidents?
+
 Which UCLs consistently meet or fail to meet the 85% or 90% response time targets for Code 1 incidents?
+
 Does population density of a UCL affect Ambulance response time?
+
 Does traffic density affect the response time?
+
 
 **What is the comparison between Code 1 and Code 2 incidents in terms of average response time and number of incidents? (Amrit)**
 
 -Analysis goes here
 
+
 **Which UCLs consistently meet or fail to meet the 85% or 90% response time targets for Code 1 incidents? (Soheil)**
 
 -Analysis goes here
+
 
 **Does population density of a UCL affect Ambulance response time? (Natasha)**
 
@@ -36,9 +42,11 @@ In addition to higher population in a densely populated area, we can assume that
 
 Based on these visualisations, population does not seem to have a significant impact on the response times of Ambulance Victoria and almost indicates that lower populated areas have higher response times. As previously mentioned, Ambulance Victoria’s staffing limitations could still be a factor causing increased response times as there may be larger staffing issues in lower populated areas. Additionally lower populated areas can often be more spread out, leading to greater travel distances. Based on this data, we can safely assume that Ambulance Victoria is still improving their response times from 2018 to 2019.
 
+
 **Does traffic density affect the response time? (Iaroslav)**
 
 -Analysis goes here
+
 
 **Conclusion:**
 
