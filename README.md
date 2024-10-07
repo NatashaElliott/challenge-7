@@ -1,5 +1,4 @@
-# Project 1
-Amrit, Soheil, Natasha, Iaroslav
+# Project 1: Amrit, Soheil, Natasha, Iaroslav
 
 **Datasets:**
 Ambulance data - https://data.gov.au/dataset/ds-vic-05533eeb-870b-4427-afb1-a5d06faa0366/details?q=ambulance
