@@ -45,7 +45,29 @@ Based on these visualisations, population does not seem to have a significant im
 
 **Does traffic density affect the response time? (Iaroslav)**
 
--Analysis goes here
+The dependency between traffic count vs ambulance response time was analyzed in Victoria.
+The idea was to check if the response time depended on the traffic load.
+
+For this pupose, the 
+
+The biggest challenge was to match the traffic count dataset was used
+ https://vicdata.vicroads.vic.gov.au/metadata/Traffic_Count_Locations%20-%20Open%20Data.html
+ It had geo points in there, but unfortunately no locality names. 
+ 
+ As a result, I resorted to a different dataset which contained various locality names accross Australia and I had to match 
+ the geo points from the traffic dfataset to the locality names. That helped me obtain the common dataset with traffci count and the corresponding locality names.
+ https://www.peter-johnson.com.au/AustraliaPlaces
+
+The comon dataset had various locality/towns/suburb names and average traffic registered per year.
+
+Than I compared the average traffic against ambulance records for 2019 and plotted scatter charts.
+
+Based on the scatter plots, there is no strong dependency between the traffic count and the wait reaction to calls.
+It could be because those topics are totally unrelated or because the service quality is spread rather equally based on the request density. 
+
+There are outliers though. For the average response time, Colac & Drysdale performed the worst. I suppose it needs to be closer verified before making conclusion.
+Gisborne hapened to be as another outlier with the best time for quick response.
+
 
 
 **Conclusion:**
