@@ -16,16 +16,19 @@ The following report is an analysis of Ambulance Victoria's performance over the
 
 We have raised the following questions regarding these datasets:
 
-What is the comparison between Code 1 and Code 2 incidents in terms of average response time and number of incidents?
-
+What is the comparison between Code 1 and Code 2 incidents in terms of average response time and trends in response performance ?(Amrit Kaur)<br><br/>
 Which UCLs consistently meet or fail to meet the 85% or 90% response time targets for Code 1 incidents?
 
 Does population density of a UCL affect Ambulance response time?
 
 Does traffic density affect the response time?
 
+<<<<<<< HEAD
+**What is the comparison between Code 1 and Code 2 incidents in terms of average response time and trends in response performance? (Amrit)**
+=======
 
 **What is the comparison between Code 1 and Code 2 incidents in terms of average response time and number of incidents? (Amrit)**
+>>>>>>> 8eb706a12156b95d153a5e839ee2eddafa066d23
 
 For Code 1 
 
@@ -62,7 +65,10 @@ The bar graphs suggest
 - Consistency in Average Response Time: The stability in average response times across both years demonstrates that, despite fluctuations in demand and service coverage, the quality of emergency service remains high. This consistency can be attributed to improved operational practices and resource management, ensuring that response times are effective even amid increased complexity in service delivery.
 
 Overall, these trends suggest that emergency services are adapting well to changing community needs, with a focus on improving accessibility, efficiency, and quality of service. Continued monitoring and evaluation will be essential to sustain these positive developments and ensure that the system remains responsive to the demands of the population.
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8eb706a12156b95d153a5e839ee2eddafa066d23
 
 **Which UCLs consistently meet or fail to meet the 85% or 90% response time targets for Code 1 incidents? (Soheil)**
 
