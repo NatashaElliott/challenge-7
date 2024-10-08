@@ -66,8 +66,7 @@ Overall, these trends suggest that emergency services are adapting well to chang
 
 **Which UCLs consistently meet or fail to meet the 85% or 90% response time targets for Code 1 incidents? (Soheil)**
 
--Analysis goes here
-
+Based on the analysis of ambulance response times across different UCLs (Urban Centres and Localities), we identified key trends in meeting the 85% and 90% response time targets for Code 1 incidents. A significant number of UCLs fall into the "Between 85%-90%" category, indicating that while they are relatively close to meeting the 90% target, there is still room for improvement. UCLs that meet the 90% target show strong performance, with efficient emergency response systems likely due to better infrastructure or resource allocation. Conversely, UCLs that consistently fail to meet the 85% target likely face challenges such as traffic congestion, limited ambulance availability, or greater distances to travel, particularly in rural or less populated areas. 
 
 **Does population density of a UCL affect Ambulance response time? (Natasha)**
 
@@ -111,4 +110,4 @@ Gisborne hapened to be as another outlier with the best time for quick response.
 
 **Conclusion:**
 
-Conclusion goes here
+This analysis of ambulance response times reveals that the data leads to a weak relationship between traffic volume/population density and response times. This may suggest that other variables play a more significant role in shaping efficiencies in Ambulance Victoria meeting their time targets. While many UCLs are close to meeting the 90% response time for Code 1 incidents, there’s evident room for improvement. 
