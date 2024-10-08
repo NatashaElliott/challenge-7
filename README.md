@@ -110,4 +110,4 @@ Gisborne hapened to be as another outlier with the best time for quick response.
 
 **Conclusion:**
 
-This analysis of ambulance response times reveals that the data leads to a weak relationship between traffic volume/population density and response times. This may suggest that other variables play a more significant role in shaping efficiencies in Ambulance Victoria meeting their time targets. While many UCLs are close to meeting the 90% response time for Code 1 incidents, there’s evident room for improvement. 
+This analysis of ambulance response times reveals that the data leads to a weak relationship between traffic volume/population density and response times. This may suggest that other variables play a more significant role in shaping efficiencies in Ambulance Victoria meeting their time targets. While many UCLs are close to meeting the 90% response time for Code 1 incidents, and the overall improvement in response times between the years 2018 & 2019, there’s evident room for improvement. Additionally, 
