@@ -12,7 +12,9 @@ Traffic data - https://vicdata.vicroads.vic.gov.au/metadata/Traffic_Count_Locati
 
 **Analysis of Ambulance Victoria response times for 2018 & 2019**
 
-The following report is an analysis of Ambulance Victoria's performance over the years 2018 and 2019. We aimed to investigate whether Ambulance Victoria is meeting their self-stated goals and if they aren't, what factors may be contributing to this. We have identified 2 major factors which we have investigated, which are traffic density and local population. Ambulance Victoria data is divided up into both Local Government Area (LGA) and Urban Centres and Localities (UCL). We have chosen to focus on UCLs because it allowed us to line up the Ambulance data from Ambulance Victoria, census data from the Australian Bureau of Statistics, and traffic data from VicRoads. We have raised the following questions regarding these datasets:
+The following report is an analysis of Ambulance Victoria's performance over the years 2018 and 2019. We aimed to investigate whether Ambulance Victoria is meeting their self-stated goals and if they aren't, what factors may be contributing to this. We have identified 2 major factors which we have investigated, which are traffic density and local population. The data from Ambulance Victoria includes both Code 1 incidents, which are defined as “urgent, requiring a lights and sirens response” and Code 2 incidents, which are “not time critical and do not require a lights and sirens response”. The data is divided up into both Local Government Area (LGA) and Urban Centres and Localities (UCL). We have chosen to focus on UCLs because it allowed us to line up the Ambulance data from Ambulance Victoria, census data from the Australian Bureau of Statistics, and traffic data from VicRoads. 
+
+We have raised the following questions regarding these datasets:
 
 What is the comparison between Code 1 and Code 2 incidents in terms of average response time and trends in response performance ?(Amrit Kaur)<br><br/>
 Which UCLs consistently meet or fail to meet the 85% or 90% response time targets for Code 1 incidents?
@@ -21,7 +23,12 @@ Does population density of a UCL affect Ambulance response time?
 
 Does traffic density affect the response time?
 
+<<<<<<< HEAD
 **What is the comparison between Code 1 and Code 2 incidents in terms of average response time and trends in response performance? (Amrit)**
+=======
+
+**What is the comparison between Code 1 and Code 2 incidents in terms of average response time and number of incidents? (Amrit)**
+>>>>>>> 8eb706a12156b95d153a5e839ee2eddafa066d23
 
 For Code 1 
 
@@ -58,23 +65,64 @@ The bar graphs suggest
 - Consistency in Average Response Time: The stability in average response times across both years demonstrates that, despite fluctuations in demand and service coverage, the quality of emergency service remains high. This consistency can be attributed to improved operational practices and resource management, ensuring that response times are effective even amid increased complexity in service delivery.
 
 Overall, these trends suggest that emergency services are adapting well to changing community needs, with a focus on improving accessibility, efficiency, and quality of service. Continued monitoring and evaluation will be essential to sustain these positive developments and ensure that the system remains responsive to the demands of the population.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8eb706a12156b95d153a5e839ee2eddafa066d23
 
 **Which UCLs consistently meet or fail to meet the 85% or 90% response time targets for Code 1 incidents? (Soheil)**
 
--Analysis goes here
+Based on the analysis of ambulance response times across different UCLs (Urban Centres and Localities), we identified key trends in meeting the 85% and 90% response time targets for Code 1 incidents. A significant number of UCLs fall into the "Between 85%-90%" category, indicating that while they are relatively close to meeting the 90% target, there is still room for improvement. UCLs that meet the 90% target show strong performance, with efficient emergency response systems likely due to better infrastructure or resource allocation. Conversely, UCLs that consistently fail to meet the 85% target likely face challenges such as traffic congestion, limited ambulance availability, or greater distances to travel, particularly in rural or less populated areas. 
 
 **Does population density of a UCL affect Ambulance response time? (Natasha)**
 
+The datasets were sourced from the Australian Bureau of Statistics, and two CSV files were used containing Census data from 2018, and 2019. 
+These were converted into two separate dataframes and then merged with the respective Ambulance Victoria dataframe for that year. This was done by matching the UCL names in both dataframes. 
+The merged dataframe was cleaned up to remove any UCL names in the Ambulance Data that were not able to be matched up to the Census data. Additionally, code 2 was removed so that statistical analysis was focused on code 1.
+
 One of the factors we think could affect the response time of any given area is the population of that area. Our assumption is that with a higher population density there will be an increase in ambulance response times due to a number of reasons such as higher incident rates, higher number of calls, and ambulance staffing limitations. In order to investigate the above, data was sourced from Ambulance Victoria and merged with Census data from the Australian Bureau of Statistics. UCLs that appeared in both datasets were then matched and used for this analysis. As seen in “Total Persons vs Average Response Time (s) - 2018 & 2019”, the total population per UCL (“Total Persons”) was measured against the average response times (“AVG RT – Seconds”) for both 2018 in blue and 2019 in red as a scatter plot with added linear regression. The linear regression shows a slight negative correlation, especially for 2019. This indicates that contrary to the assumption, an increase in population does not exactly impact the response time in any particular area. The statistical analysis may in fact indicate that response times increase in areas with a lower population.
 
-In addition to higher population in a densely populated area, we can assume that this will cause an increase in the number of calls to Ambulance Victoria services. As seen in “Total Number of Calls vs Average Response Time (s) - 2018 & 2019”, the total number of calls was measured against the average response times for again, both 2018 in blue and 2019 in red as a scatter plot with added linear regression. Additionally for the purposes of linear regression, the outlier of Melbourne for 2018 was removed as the total calls for Melbourne significantly altered the statistical analysis due to being so far out of the range of the rest of the UCLs. The linear regression still shows a slight negative correlation, however it is a stronger correlation than the previous plot. This could indicate that a greater number of calls will have a strong chance of increasing the average response time. The stronger correlation suggests that an increase in the number of calls may impact response times more significantly than a larger population does.
+![image](https://github.com/NatashaElliott/challenge-7/blob/main/Data/TotalPersons.png)
+
+In addition to higher population in a densely populated area, we can assume that this will cause an increase in the number of calls to Ambulance Victoria services. As seen in “Total Number of Calls vs Average Response Time (s) - 2018 & 2019”, the total number of calls was measured against the average response times for again, both 2018 in blue and 2019 in red as a scatter plot with added linear regression. Additionally for the purposes of linear regression, the outlier of Melbourne for 2018 was removed as the total calls for Melbourne significantly altered the statistical analysis due to being so far out of the range of the rest of the UCLs. The linear regression still shows a slight negative correlation, however it is a stronger correlation than the previous plot. This could indicate that a greater number of calls will have a strong chance of decreasing the average response time. The stronger correlation suggests that an increase in the number of calls may impact response times more significantly than a larger population does.
+
+![image](https://github.com/NatashaElliott/challenge-7/blob/main/Data/TotalNumber.png)
 
 Based on these visualisations, population does not seem to have a significant impact on the response times of Ambulance Victoria and almost indicates that lower populated areas have higher response times. As previously mentioned, Ambulance Victoria’s staffing limitations could still be a factor causing increased response times as there may be larger staffing issues in lower populated areas. Additionally lower populated areas can often be more spread out, leading to greater travel distances. Based on this data, we can safely assume that Ambulance Victoria is still improving their response times from 2018 to 2019.
 
+
 **Does traffic density affect the response time? (Iaroslav)**
 
--Analysis goes here
+The dependency between traffic count vs ambulance response time was analyzed in Victoria.
+The idea was to check if the response time depended on the traffic load.
+
+The biggest challenge was to match the traffic count dataset was used
+ https://vicdata.vicroads.vic.gov.au/metadata/Traffic_Count_Locations%20-%20Open%20Data.html
+ It had geo points in there, but unfortunately no locality names. 
+  
+ As a result, I resorted to a different dataset which contained various locality names across Australia and I had to match 
+ the geo points from the traffic dataset to the locality names. That helped me obtain the common dataset with traffic count and the corresponding locality names.
+ https://www.peter-johnson.com.au/AustraliaPlaces
+
+The common dataset had various locality/towns/suburb names and average traffic registered per year.
+ ![image](https://github.com/NatashaElliott/challenge-7/blob/main/traffic_output_data/traffic-count-per-locations.png)
+
+Than I compared the average traffic against ambulance records for 2019 and plotted scatter charts.
+
+Based on the scatter plots, there is no strong dependency between the traffic count and the wait reaction to calls.
+ ![image](https://github.com/NatashaElliott/challenge-7/blob/main/traffic_output_data/average-response-time-per-traffic-count.png)
+
+ ![image](https://github.com/NatashaElliott/challenge-7/blob/main/traffic_output_data/15min-response-time-per-traffic-count.png)
+
+It could be because those topics are totally unrelated or because the service quality is spread rather equally based on the request density. 
+
+There are outliers though. For the average response time, Colac & Drysdale performed the worst. I suppose it needs to be closer verified before making conclusion.
+ ![image](https://github.com/NatashaElliott/challenge-7/blob/main/traffic_output_data/average-outliers.png)
+
+Gisborne happened to be as another outlier with the best time for quick response.
+ ![image](https://github.com/NatashaElliott/challenge-7/blob/main/traffic_output_data/15min-outliers.png)
+
 
 **Conclusion:**
 
-Conclusion goes here
+This analysis of ambulance response times reveals that the data leads to a weak relationship between traffic volume/population density and response times. This may suggest that other variables play a more significant role in shaping efficiencies in Ambulance Victoria meeting their time targets. While many UCLs are close to meeting the 90% response time for Code 1 incidents, and the overall improvement in response times between the years 2018 & 2019, there’s evident room for improvement. Additionally, some limitations to consider include the change in UCL names from 2018 to 2019 in the Ambulance data, and the other datasets (Census data and VicRoads data) where we were not able to match UCL name with the Ambulance data UCL name.
