@@ -27,7 +27,41 @@ Does traffic density affect the response time?
 
 **What is the comparison between Code 1 and Code 2 incidents in terms of average response time and number of incidents? (Amrit)**
 
--Analysis goes here
+For Code 1 
+
+![image](https://github.com/user-attachments/assets/4f180bed-5bc8-48f7-aa49-803d9e96b678)
+
+R-squared value 0.0015 indicates that only 0.15% of the variability in average response time can be explained by the total number of calls. This suggests a very weak linear relationship, meaning that the number of calls does not significantly contribute to understanding the changes in response times.The extremely low R-squared value implies that there are likely other factors influencing response times that are not captured by this model. It indicates that the model is not very useful for predicting response times based on call volume.
+
+Whereas, For Code 2
+
+![image](https://github.com/user-attachments/assets/707441dd-65e6-429c-a65a-e8bb69268620)
+
+R-squared value 0.0213 suggests that 2.13% of the variability in average response time can be explained by the total number of calls. Although this is slightly better than the R-squared for Code 1, it still reflects a weak relationship.While there is a marginally better fit compared to Code 1, it still indicates that the total number of calls has limited explanatory power regarding average response times. Other factors are likely more significant contributors to the variability in response times.
+
+When compared side by side,
+
+![image](https://github.com/user-attachments/assets/e9113535-7093-4b13-a83f-dc3369e8fd18)
+
+Code 1 incidents, likely representing more critical and life threatening emergencies, receive faster response times (9 to 15 minutes), reflecting the system's focus on high-priority cases. In contrast, Code 2 incidents, possibly less urgent, experience significantly longer response times (19 to 32 minutes). This suggests that while resources are effectively directed towards urgent cases, there could be potential service capacity issues impacting the speed of lower-priority responses.<br><br/>
+
+In summary, both models indicate that while there is some correlation between the total number of calls and the average response time, this correlation is weak. The low R-squared values suggest that other factors—such as operational efficiency, geographical location, or service quality—might have a more significant impact on response times. Therefore, further analysis considering additional variables would likely provide a more comprehensive understanding of the factors affecting average response times in ambulance services.
+
+Considering the overall trend, 
+
+![image](https://github.com/user-attachments/assets/6ec5cee2-8537-4616-a8fe-a587600df02c)
+
+The bar graphs suggest
+
+- Increase in Unique Areas: The growth in the number of unique areas served signifies an expansion of service coverage. This could be attributed to factors such as population growth or deliberate efforts to enhance accessibility for underserved regions. By reaching more areas, the service demonstrates a commitment to meeting community needs.
+
+- Decrease in Average Number of Calls: The notable reduction in the average number of calls per area suggests positive developments in public health. This could indicate that improvements in lifestyle, health awareness, and preventive healthcare measures are contributing to fewer emergency situations. Additionally, it may reflect effective management strategies that successfully reduce the demand for emergency services, allowing resources to be better allocated.
+
+- Increase in Code Types: The rise in the number of codes indicates a diversification of services offered, facilitating more specialized responses to different situations. This development can enhance the efficiency of call management, as dispatchers can allocate resources more effectively based on the specific nature of each call. It reflects an adaptive approach to emergency response that caters to varying community needs.
+
+- Consistency in Average Response Time: The stability in average response times across both years demonstrates that, despite fluctuations in demand and service coverage, the quality of emergency service remains high. This consistency can be attributed to improved operational practices and resource management, ensuring that response times are effective even amid increased complexity in service delivery.
+
+Overall, these trends suggest that emergency services are adapting well to changing community needs, with a focus on improving accessibility, efficiency, and quality of service. Continued monitoring and evaluation will be essential to sustain these positive developments and ensure that the system remains responsive to the demands of the population.
 
 
 **Which UCLs consistently meet or fail to meet the 85% or 90% response time targets for Code 1 incidents? (Soheil)**
