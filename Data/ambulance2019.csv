@@ -1,16 +1,16 @@
 UCL Name,Final Dispatch Code,%<=15mins,AVG RT - Seconds,Total Number
-Albury - Wodonga (Wodonga Part),Code 1,90.90%,604,"2,050"
+Albury - Wodonga (Wodonga Part),Code 1,90.90%,604,2050
 Bacchus Marsh,Code 1,83.40%,643,835
-Bairnsdale,Code 1,84.10%,654,"1,021"
-Ballarat,Code 1,91.20%,604,"5,785"
+Bairnsdale,Code 1,84.10%,654,1021
+Ballarat,Code 1,91.20%,604,5785
 Benalla,Code 1,76.40%,752,592
-Bendigo,Code 1,87.40%,645,"5,567"
+Bendigo,Code 1,87.40%,645,5567
 Castlemaine,Code 1,73.00%,812,482
 Colac,Code 1,86.20%,653,607
 Drouin,Code 1,84.90%,702,656
 Drysdale - Clifton Springs,Code 1,84.70%,698,667
 Echuca - Moama (Echuca Part),Code 1,87.70%,606,826
-Geelong,Code 1,88.40%,633,"9,982"
+Geelong,Code 1,88.40%,633,9982
 Gisborne,Code 1,74.40%,694,449
 Hamilton,Code 1,92.30%,560,418
 Healesville,Code 1,85.60%,610,555
@@ -18,26 +18,26 @@ Horsham,Code 1,92.60%,551,952
 Lara,Code 1,84.40%,667,636
 Leopold,Code 1,87.90%,610,513
 Maryborough (Vic) (1),Code 1 ,82.00%,683,607
-Melbourne (2),Code 1,89.60%,608,"192,915"
-Melton,Code 1,86.30%,602,"3,727"
-Mildura - Buronga (Mildura Part),Code 1,94.60%,530,"2,242"
-Moe - Newborough,Code 1,83.90%,614,"1,757"
-Morwell,Code 1,92.50%,563,"1,610"
+Melbourne (2),Code 1,89.60%,608,192915
+Melton,Code 1,86.30%,602,3727
+Mildura - Buronga (Mildura Part),Code 1,94.60%,530,2242
+Moe - Newborough,Code 1,83.90%,614,1757
+Morwell,Code 1,92.50%,563,1610
 Ocean Grove - Barwon Heads,Code 1,84.90%,640,780
 Portland (Vic.),Code 1,87.90%,606,539
 Sale,Code 1,89.10%,568,717
-Shepparton - Mooroopna,Code 1,91.60%,578,"3,232"
-Sunbury,Code 1,87.80%,606,"1,721"
+Shepparton - Mooroopna,Code 1,91.60%,578,3232
+Sunbury,Code 1,87.80%,606,1721
 Swan Hill,Code 1,90.00%,571,609
 Torquay - Jan Juc,Code 1,79.00%,731,686
-Traralgon,Code 1,84.20%,667,"1,611"
+Traralgon,Code 1,84.20%,667,1611
 Wallan,Code 1,86.00%,608,457
-Wangaratta,Code 1,90.70%,597,"1,164"
+Wangaratta,Code 1,90.70%,597,1164
 Warragul,Code 1,83.00%,659,816
-Warrnambool,Code 1,93.50%,557,"1,477"
+Warrnambool,Code 1,93.50%,557,1477
 Wonthaggi (1),Code 1 ,89.60%,590,626
 Yarrawonga - Mulwala (Yarrawonga Part) (1),Code 1,74.60%,829,500
-Total UCLs > 7500,Code 1,89.20%,611,"250,386"
+Total UCLs > 7500,Code 1,89.20%,611,250386
 ,,,,
 ,,,,
 ,,,,
@@ -46,18 +46,18 @@ Total UCLs > 7500,Code 1,89.20%,611,"250,386"
 ,,,,
 ,,,,
 UCL Name,Final Dispatch Code,,AVG RT - Seconds,Total Number
-Albury - Wodonga (Wodonga Part),Code 2,,1357,"1,458"
+Albury - Wodonga (Wodonga Part),Code 2,,1357,1458
 Bacchus Marsh,Code 2,,1248,874
-Bairnsdale,Code 2,,1951,"1,042"
-Ballarat,Code 2,,1286,"4,134"
+Bairnsdale,Code 2,,1951,1042
+Ballarat,Code 2,,1286,4134
 Benalla,Code 2,,1481,596
-Bendigo,Code 2,,1380,"3,868"
+Bendigo,Code 2,,1380,3868
 Castlemaine,Code 2,,1726,504
 Colac,Code 2,,1570,690
 Drouin,Code 2,,1254,458
 Drysdale - Clifton Springs,Code 2,,1198,467
 Echuca - Moama (Echuca Part),Code 2,,1890,937
-Geelong,Code 2,,1281,"7,201"
+Geelong,Code 2,,1281,7201
 Gisborne,Code 2,,1224,388
 Hamilton,Code 2,,1370,431
 Healesville,Code 2,,983,417
@@ -65,23 +65,23 @@ Horsham,Code 2,,1380,785
 Lara,Code 2,,1346,385
 Leopold,Code 2,,1192,277
 Maryborough (Vic) (1),Code 2,,1542,732
-Melbourne (2),Code 2,,1400,"139,760"
-Melton,Code 2,,1136,"2,473"
-Mildura - Buronga (Mildura Part),Code 2,,1551,"1,811"
-Moe - Newborough,Code 2,,1166,"1,091"
-Morwell,Code 2,,1114,"1,163"
+Melbourne (2),Code 2,,1400,139760
+Melton,Code 2,,1136,2473
+Mildura - Buronga (Mildura Part),Code 2,,1551,1811
+Moe - Newborough,Code 2,,1166,1091
+Morwell,Code 2,,1114,1163
 Ocean Grove - Barwon Heads,Code 2,,1083,542
 Portland (Vic.),Code 2,,1552,556
 Sale,Code 2,,1319,768
-Shepparton - Mooroopna,Code 2,,1324,"2,529"
-Sunbury,Code 2,,1120,"1,293"
+Shepparton - Mooroopna,Code 2,,1324,2529
+Sunbury,Code 2,,1120,1293
 Swan Hill,Code 2,,2022,639
 Torquay - Jan Juc,Code 2,,1212,465
-Traralgon,Code 2,,1543,"1,403"
+Traralgon,Code 2,,1543,1403
 Wallan,Code 2,,1022,333
 Wangaratta,Code 2,,1505,977
 Warragul,Code 2,,1485,976
-Warrnambool,Code 2,,1254,"1,295"
+Warrnambool,Code 2,,1254,1295
 Wonthaggi (1),Code 2 ,,1804,691
 Yarrawonga - Mulwala (Yarrawonga Part) (1),Code 2 ,,1476,485
-Total UCLs > 7500,Code 2,,1392,"184,894"
+Total UCLs > 7500,Code 2,,1392,184894
