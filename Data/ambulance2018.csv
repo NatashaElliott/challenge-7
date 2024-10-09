@@ -1,0 +1,80 @@
+UCL Name,Final Dispatch Code,%<=15mins,AVG RT - Seconds,Total Number
+Albury - Wodonga (Wodonga Part),Code 1,91.35%,602,1735
+Bacchus Marsh,Code 1,79.85%,693,784
+Bairnsdale,Code 1,85.61%,668,966
+Ballarat,Code 1,89.32%,627,5272
+Benalla,Code 1,84.08%,682,534
+Bendigo,Code 1,86.25%,659,5098
+Castlemaine,Code 1,71.43%,890,441
+Colac,Code 1,85.37%,680,547
+Drouin,Code 1,75.00%,792,624
+Drysdale - Clifton Springs,Code 1,82.38%,707,505
+Echuca - Moama (Echuca Part),Code 1,86.65%,657,854
+Geelong,Code 1,89.37%,631,9030
+Gisborne,Code 1,74.27%,738,412
+Hamilton,Code 1,94.20%,543,379
+Healesville,Code 1,74.34%,722,565
+Horsham,Code 1,92.41%,553,936
+Lara,Code 1,85.98%,646,535
+Leopold,Code 1,90.00%,597,450
+Melbourne,Code 1,87.29%,640,182520
+Melton,Code 1,81.37%,667,3436
+Mildura - Buronga (Mildura Part),Code 1,92.04%,558,2123
+Moe - Newborough,Code 1,80.03%,677,1532
+Morwell,Code 1,89.30%,589,1598
+Ocean Grove - Barwon Heads,Code 1,84.17%,676,638
+Pakenham,Code 1,81.43%,693,2213
+Portland (Vic.),Code 1,88.77%,596,561
+Sale,Code 1,89.71%,570,622
+Shepparton - Mooroopna,Code 1,91.34%,593,2979
+Sunbury,Code 1,81.18%,666,1769
+Swan Hill,Code 1,89.88%,566,504
+Torquay - Jan Juc,Code 1,79.14%,707,561
+Traralgon,Code 1,82.01%,686,1562
+Wallan,Code 1,89.84%,600,433
+Wangaratta,Code 1,90.80%,596,1109
+Warragul,Code 1,83.45%,685,864
+Warrnambool,Code 1,92.97%,565,1480
+Total UCLs > 7500,Code 1,87.20%,640,236171
+,,,,
+,,,,
+,,,,
+,,,,
+UCL Name,Final Dispatch Code,,AVG RT - Seconds,Total Number
+Albury - Wodonga (Wodonga Part),Code 2,,1325,1437
+Bacchus Marsh,Code 2,,1415,903
+Bairnsdale,Code 2,,1853,1007
+Ballarat,Code 2,,1269,3996
+Benalla,Code 2,,1438,639
+Bendigo,Code 2,,1463,3820
+Castlemaine,Code 2,,1584,519
+Colac,Code 2,,1468,654
+Drouin,Code 2,,1500,480
+Drysdale - Clifton Springs,Code 2,,1257,394
+Echuca - Moama (Echuca Part),Code 2,,1907,881
+Geelong,Code 2,,1278,6586
+Gisborne,Code 2,,1385,397
+Hamilton,Code 2,,1501,414
+Healesville,Code 2,,1268,451
+Horsham,Code 2,,1507,926
+Lara,Code 2,,1222,366
+Leopold,Code 2,,1193,294
+Melbourne,Code 2,,1551,136455
+Melton,Code 2,,1286,2451
+Mildura - Buronga (Mildura Part),Code 2,,1553,1855
+Moe - Newborough,Code 2,,1303,1033
+Morwell,Code 2,,1312,1156
+Ocean Grove - Barwon Heads,Code 2,,1209,465
+Pakenham,Code 2,,1338,1517
+Portland (Vic.),Code 2,,1432,572
+Sale,Code 2,,1402,647
+Shepparton - Mooroopna,Code 2,,1433,2438
+Sunbury,Code 2,,1327,1272
+Swan Hill,Code 2,,1772,530
+Torquay - Jan Juc,Code 2,,1243,353
+Traralgon,Code 2,,1576,1306
+Wallan,Code 2,,1129,338
+Wangaratta,Code 2,,1475,1022
+Warragul,Code 2,,1514,890
+Warrnambool,Code 2,,1388,1248
+Total UCLs > 7500,Code 2,,1514,179712
